@@ -1,7 +1,13 @@
-// api/counter.js
 export default async function handler(req, res) {
   try {
-    const r = await fetch('https://api.countapi.xyz/hit/alwinjosegeorge/profile_views');
+    const apiKey = process.env.COUNTAPI_KEY;  // Read API key from env
+
+    const r = await fetch('https://api.countapi.xyz/hit/alwinjosegeorge/profile_views', {
+      headers: {
+        Authorization: `Bearer ${apiKey}`
+      }
+    });
+
     const data = await r.json();
     const raw = Number(data.value || 0);
 
