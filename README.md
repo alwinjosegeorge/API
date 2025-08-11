@@ -5,21 +5,6 @@ Built following RESTful best practices, this API is structured for rapid develop
 
 ---
 
-## 📚 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
 ## 📖 Overview
 This API powers **[your application name or purpose here]**, offering reliable and efficient endpoints for **[data processing / authentication / analytics / etc.]**.  
 It is optimized for both **development** and **production** environments.
